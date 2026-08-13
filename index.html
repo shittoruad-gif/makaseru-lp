@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>マカセル｜広告の文章・画像・動画をAIが作る、Meta広告アプリ 月額11,000円〜【株式会社しっとる】</title>
+<meta name="description" content="治療院・整体・サロン経営者様へ。Instagram/Meta広告の文章・画像・AI動画・LPまでアプリがまとめて作成。月額11,000円〜の定額制。無料お試しコードあり。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="マカセル｜広告の文章・画像・動画をAIが作る、Meta広告アプリ">
+<meta property="og:description" content="治療院・サロンのためのMeta広告AIアプリ。広告素材ひとそろいが最短3分。月額11,000円〜の定額制。">
+<meta property="og:site_name" content="株式会社しっとる">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%231C3F3A'/><circle cx='50' cy='50' r='26' fill='none' stroke='%23F4FAFA' stroke-width='9'/><circle cx='50' cy='50' r='8' fill='%23E8630A'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pine-950:#0A1A17;
+  --pine-900:#0E241F;
+  --pine-800:#143129;
+  --pine:#1C3F3A;
+  --teal:#0E8388;
+  --teal-soft:#E3F1F0;
+  --orange:#E8630A;
+  --orange-dark:#C9530A;
+  --orange-soft:#FFC79B;
+  --ink:#15221F;
+  --gray-600:#5A6965;
+  --gray-100:#F2F7F6;
+  --white:#FFFFFF;
+  --radius:18px;
+  --shadow:0 10px 30px rgba(14,36,31,.10);
+  --maxw:1080px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:"Noto Sans JP",sans-serif;color:var(--ink);line-height:1.85;background:var(--white);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+svg.i{width:1em;height:1em;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;display:block}
+a{color:inherit}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+.sec{padding:88px 0}
+.sec-label{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.22em;color:var(--teal);margin-bottom:14px}
+.sec-title{font-size:clamp(24px,4.2vw,34px);font-weight:900;line-height:1.5;margin-bottom:18px}
+.sec-lead{font-size:15.5px;color:var(--gray-600);max-width:760px}
+.center{text-align:center}
+.center .sec-lead{margin:0 auto}
+
+/* ===== reveal animation ===== */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.reveal.on{opacity:1;transform:none}
+
+/* ===== buttons ===== */
+.btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--orange),var(--orange-dark));color:#fff;font-weight:700;text-decoration:none;padding:16px 30px;border-radius:999px;box-shadow:0 12px 26px rgba(232,99,10,.35);transition:transform .2s ease,box-shadow .2s ease}
+.btn:hover{transform:translateY(-2px);box-shadow:0 16px 32px rgba(232,99,10,.45)}
+.btn .arrow{transition:transform .2s}
+.btn:hover .arrow{transform:translateX(4px)}
+.btn--lg{font-size:17px;padding:19px 40px}
+.btn--ghost{background:transparent;box-shadow:none;border:1.5px solid rgba(255,255,255,.55);font-weight:500}
+.btn--ghost:hover{box-shadow:none;background:rgba(255,255,255,.08)}
+.btn-note{font-size:12px;color:var(--gray-600);margin-top:10px}
+.btn-note--onDark{color:rgba(255,255,255,.75)}
+
+/* ===== header ===== */
+header{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(10,26,23,.82);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:62px;max-width:var(--maxw);margin:0 auto;padding:0 22px}
+.logo{display:flex;align-items:center;gap:10px;color:#fff;font-weight:900;font-size:18px;text-decoration:none;letter-spacing:.04em}
+.logo .mark{width:30px;height:30px;border-radius:50%;background:var(--teal);display:grid;place-items:center;font-size:15px;color:#fff}
+.logo small{font-size:10.5px;font-weight:500;color:rgba(255,255,255,.65);letter-spacing:.14em;margin-left:2px}
+.nav .btn{padding:9px 20px;font-size:13.5px}
+
+/* ===== hero ===== */
+.hero{position:relative;background:radial-gradient(1100px 620px at 88% -10%,var(--pine-800),transparent 60%),radial-gradient(900px 520px at -12% 110%,#10312F,transparent 55%),var(--pine-950);color:#fff;padding:150px 0 96px;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-140px;bottom:-190px;width:460px;height:460px;border-radius:50%;background:var(--teal);opacity:.14}
+.hero::before{content:"";position:absolute;right:60px;top:-160px;width:380px;height:380px;border-radius:50%;background:var(--pine-800);opacity:.8}
+.hero .wrap{position:relative;z-index:1}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;background:rgba(14,131,136,.18);border:1px solid rgba(14,131,136,.6);color:#9FD8DB;border-radius:999px;padding:7px 16px;letter-spacing:.06em}
+.hero h1{font-size:clamp(30px,5.4vw,50px);font-weight:900;line-height:1.42;margin:26px 0 20px}
+.hero h1 .em{color:var(--orange-soft)}
+.hero .sub{font-size:clamp(14.5px,2vw,17px);color:rgba(255,255,255,.82);max-width:640px}
+.hero-ctas{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:36px}
+.hero-points{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}
+.hero-point{font-size:12.5px;font-weight:700;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:8px 16px;color:rgba(255,255,255,.9)}
+
+/* ===== pains ===== */
+.pain-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:40px}
+.pain{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);padding:26px 24px;border-top:4px solid var(--orange)}
+.pain .ico{width:52px;height:52px;border-radius:50%;background:#FDEEDF;display:grid;place-items:center;font-size:24px;margin-bottom:14px;color:var(--orange)}
+.pain h3{font-size:17px;font-weight:900;margin-bottom:8px}
+.pain p{font-size:13.5px;color:var(--gray-600)}
+.pain-conc{margin-top:30px;font-weight:700;color:var(--teal);font-size:15px}
+
+/* ===== structure(結論) ===== */
+.sec-dark{background:linear-gradient(180deg,var(--pine-950),var(--pine-900));color:#fff}
+.sec-dark .sec-lead{color:rgba(255,255,255,.75)}
+.mult{display:flex;align-items:stretch;justify-content:center;gap:22px;flex-wrap:wrap;margin-top:44px}
+.mult .box{flex:1 1 300px;max-width:400px;border-radius:var(--radius);padding:34px 28px;text-align:center}
+.mult .box.b1{background:var(--pine-800);border:1px solid rgba(255,255,255,.08)}
+.mult .box.b2{background:var(--teal)}
+.mult .box .bic{width:64px;height:64px;margin:0 auto 16px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:28px;color:var(--teal)}
+.mult .box h3{font-size:21px;font-weight:900}
+.mult .box .tag{font-size:12.5px;font-weight:700;color:var(--orange-soft);margin:4px 0 12px}
+.mult .box.b2 .tag{color:#fff}
+.mult .box p{font-size:13px;color:rgba(255,255,255,.85)}
+.mult .x{align-self:center;font-size:34px;font-weight:900;color:var(--orange)}
+.mult-conc{text-align:center;margin-top:34px;font-weight:700;font-size:15.5px;color:#9FD8DB}
+
+/* ===== how(3steps) ===== */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:42px}
+.step{position:relative;background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);padding:30px 26px}
+.step .no{position:absolute;top:18px;right:22px;font-size:44px;font-weight:900;color:var(--teal-soft)}
+.step .ico{width:56px;height:56px;border-radius:50%;background:var(--teal);display:grid;place-items:center;font-size:26px;margin-bottom:16px;color:#fff}
+.step h3{font-size:17.5px;font-weight:900;margin-bottom:8px}
+.step p{font-size:13.5px;color:var(--gray-600)}
+.step .time{display:inline-block;margin-top:12px;font-size:12px;font-weight:700;color:var(--teal)}
+
+/* ===== features ===== */
+.feat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:42px}
+.feat{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);padding:28px 26px;display:flex;gap:18px;align-items:flex-start}
+.feat .ico{flex:0 0 54px;width:54px;height:54px;border-radius:50%;background:var(--teal-soft);display:grid;place-items:center;font-size:25px;color:var(--teal)}
+.feat h3{font-size:16.5px;font-weight:900;margin-bottom:6px}
+.feat h3 small{display:inline-block;font-size:11px;color:var(--orange);font-weight:700;margin-left:8px;vertical-align:2px}
+.feat p{font-size:13px;color:var(--gray-600)}
+
+/* ===== video showcase ===== */
+.vid-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:42px}
+.vid{border-radius:var(--radius);padding:30px 26px;color:#fff;position:relative;overflow:hidden;min-height:210px;display:flex;flex-direction:column;justify-content:flex-end}
+.vid.v1{background:linear-gradient(160deg,#123B36,#0E8388)}
+.vid.v2{background:linear-gradient(160deg,#3A2413,#C9530A)}
+.vid.v3{background:linear-gradient(160deg,#1A2233,#3C5AA8)}
+.vid .badge{position:absolute;top:20px;left:24px;font-size:11.5px;font-weight:700;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:5px 13px;border-radius:999px}
+.vid .em{font-size:34px;position:absolute;top:52px;left:24px;color:#fff;opacity:.9}
+.vid h3{font-size:18px;font-weight:900;margin-bottom:6px}
+.vid p{font-size:12.5px;color:rgba(255,255,255,.85)}
+
+/* ===== compare table ===== */
+.tbl-wrap{overflow-x:auto;margin-top:42px;border-radius:var(--radius);box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;background:#fff;min-width:640px}
+th,td{padding:15px 16px;font-size:13.5px;text-align:center;border-bottom:1px solid #E6EEEC}
+th:first-child,td:first-child{text-align:left;font-weight:700;white-space:nowrap}
+thead th{font-weight:900;font-size:14px}
+thead th.hl{background:var(--teal);color:#fff;border-radius:12px 12px 0 0}
+td.hl{background:var(--teal-soft);color:var(--teal);font-weight:900}
+td{color:var(--gray-600)}
+.tbl-note{font-size:11.5px;color:var(--gray-600);margin-top:14px;font-style:italic}
+
+/* ===== screens ===== */
+.shot{background:#fff;border:1px solid #DCE8E6;border-radius:14px;box-shadow:var(--shadow);overflow:hidden;margin:0}
+.shot-bar{height:30px;background:#EDF3F2;display:flex;align-items:center;gap:6px;padding:0 14px;border-bottom:1px solid #DCE8E6}
+.shot-bar i{width:9px;height:9px;border-radius:50%;background:#CBDBD8}
+.shot img{width:100%;display:block}
+.shot figcaption{font-size:12.5px;color:var(--gray-600);padding:12px 16px;border-top:1px solid #EDF3F2;line-height:1.7}
+.shot--main{margin-top:40px}
+.shot-grid{display:grid;grid-template-columns:1fr 1.45fr;gap:20px;margin-top:20px;align-items:start}
+.shot-col{display:flex;flex-direction:column;gap:20px}
+@media(max-width:700px){.shot-grid{grid-template-columns:1fr}}
+.handoff{display:flex;gap:18px;align-items:flex-start;background:#fff;border:1.5px solid var(--teal);border-radius:var(--radius);padding:26px 28px;margin-top:30px;box-shadow:var(--shadow)}
+.handoff-ico{font-size:34px;line-height:1;flex-shrink:0;color:var(--teal);margin-top:4px}
+.handoff h3{font-size:16.5px;font-weight:800;color:var(--ink);margin-bottom:8px}
+.handoff p{font-size:14px;color:var(--gray-600);line-height:1.9}
+.handoff p strong{color:var(--teal)}
+@media(max-width:560px){.handoff{flex-direction:column;gap:10px;padding:22px 20px}}
+
+/* ===== proof ===== */
+.proof-grid{display:flex;flex-wrap:wrap;gap:22px;margin-top:44px}
+.proof{flex:1 1 300px;background:var(--pine-800);border:1px solid rgba(255,255,255,.09);border-radius:var(--radius);padding:34px 30px}
+.proof .big{font-size:58px;font-weight:900;color:#5BC6CB;line-height:1.1}
+.proof .big small{font-size:20px;color:#fff;font-weight:700;margin-left:6px}
+.proof h3{font-size:16px;font-weight:900;margin:10px 0 8px}
+.proof p{font-size:12.5px;color:rgba(255,255,255,.75)}
+.proof-note{font-size:11.5px;color:rgba(255,255,255,.55);margin-top:22px;font-style:italic}
+
+/* ===== pricing ===== */
+.price-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:44px;align-items:stretch}
+.plan{position:relative;background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);padding:34px 28px;display:flex;flex-direction:column}
+.plan.best{background:var(--pine);color:#fff;transform:scale(1.03)}
+.plan .pbadge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,var(--orange),var(--orange-dark));color:#fff;font-size:12px;font-weight:900;padding:6px 18px;border-radius:999px;box-shadow:0 6px 16px rgba(232,99,10,.4);white-space:nowrap}
+.plan h3{font-size:18px;font-weight:900}
+.plan .for{font-size:12.5px;font-weight:700;color:var(--teal);margin:2px 0 14px}
+.plan.best .for{color:var(--orange-soft)}
+.plan .price{font-size:38px;font-weight:900;line-height:1.2}
+.plan .price small{font-size:13px;font-weight:500;color:var(--gray-600)}
+.plan.best .price small{color:rgba(255,255,255,.7)}
+.plan ul{list-style:none;margin:18px 0 0;flex:1}
+.plan li{font-size:13.5px;padding:7px 0 7px 26px;position:relative;color:var(--gray-600)}
+.plan.best li{color:rgba(255,255,255,.9)}
+.plan li::before{content:"✓";position:absolute;left:2px;color:var(--teal);font-weight:900}
+.plan.best li::before{color:var(--orange-soft)}
+.price-notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:26px}
+.pnote{background:var(--white);border-radius:14px;box-shadow:var(--shadow);padding:16px 20px;display:flex;gap:12px;align-items:center}
+.pnote .em{font-size:22px;color:var(--teal)}
+.pnote b{font-size:13.5px;display:block}
+.pnote span{font-size:11.5px;color:var(--gray-600)}
+
+/* ===== FAQ ===== */
+.faq{max-width:820px;margin:42px auto 0}
+.qa{background:var(--white);border-radius:14px;box-shadow:var(--shadow);margin-bottom:14px;overflow:hidden}
+.qa summary{list-style:none;cursor:pointer;display:flex;align-items:flex-start;gap:12px;padding:20px 24px;font-weight:700;font-size:15px}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary .q{color:var(--teal);font-weight:900}
+.qa summary .tgl{margin-left:auto;flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--teal-soft);color:var(--teal);display:grid;place-items:center;font-weight:900;transition:transform .25s}
+.qa[open] summary .tgl{transform:rotate(45deg)}
+.qa .a{padding:0 24px 20px 60px;font-size:13.5px;color:var(--gray-600)}
+
+/* ===== contact ===== */
+.sec-contact{background:radial-gradient(900px 500px at 90% 0%,var(--pine-800),transparent 60%),var(--pine-950);color:#fff;text-align:center;padding:96px 0}
+.sec-contact h2{font-size:clamp(26px,4.6vw,38px);font-weight:900;margin-bottom:18px}
+.sec-contact .lead{font-size:15px;color:rgba(255,255,255,.8);max-width:680px;margin:0 auto 34px}
+.form-steps{display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:36px}
+.form-step{font-size:13px;font-weight:700;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:12px 20px;line-height:1.5}
+.form-step .n{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--orange);font-size:12px;margin-right:8px}
+.form-step.sep{background:none;border:none;color:var(--orange-soft);font-size:18px;padding:0}
+
+/* ===== footer ===== */
+footer{background:#081411;color:rgba(255,255,255,.75);padding:46px 0 40px;font-size:12.5px}
+footer .brand{display:flex;align-items:center;gap:10px;margin-bottom:14px;color:#fff;font-weight:900;font-size:16px}
+footer .brand .mark{width:26px;height:26px;border-radius:50%;background:var(--teal);display:grid;place-items:center;font-size:13px;color:#fff}
+footer .links{margin-top:10px}
+footer .links a{color:rgba(255,255,255,.6);margin-right:18px;text-decoration:none}
+footer .links a:hover{text-decoration:underline}
+footer .copy{margin-top:16px;color:rgba(255,255,255,.4);font-size:11px}
+
+/* ===== sticky CTA (mobile) ===== */
+.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(10,26,23,.92);backdrop-filter:blur(8px);display:none}
+.sticky-cta .btn{width:100%;justify-content:center;font-size:15px;padding:14px 10px}
+@media(max-width:760px){
+  .sticky-cta{display:block}
+  .sec{padding:64px 0}
+  .hero{padding:120px 0 72px}
+  .plan.best{transform:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="logo" href="#top">
+      <span class="mark"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>マカセル<small>SELF AD OPS</small>
+    </a>
+    <a class="btn js-form-link" href="#contact">無料で試す</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap">
+    <span class="hero-badge">治療院・整体・サロンのための Meta広告AIアプリ</span>
+    <h1>めんどうな広告づくり、<br><span class="em">ぜんぶAIに</span>任せませんか。</h1>
+    <p class="sub">Instagram／Meta広告の<strong>文章・画像・動画・LP</strong>まで、アプリがまとめて作成。あなたは内容を確認して「承認」するだけ。月額定額だから、自分のペースで、小さく始めてじっくり育てられます。</p>
+    <div class="hero-ctas">
+      <a class="btn btn--lg js-form-link" href="#contact">無料お試しを申し込む<span class="arrow">→</span></a>
+      <a class="btn btn--ghost" href="#features">できることを見る</a>
+    </div>
+    <div class="hero-points">
+      <span class="hero-point">✓ 広告ひとそろい最短3分</span>
+      <span class="hero-point">✓ 月額11,000円〜の定額</span>
+      <span class="hero-point">✓ 年間縛りなし</span>
+      <span class="hero-point">✓ 無料お試しコードあり</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PAINS ================= -->
+<section class="sec" style="background:var(--gray-100)">
+  <div class="wrap">
+    <span class="sec-label reveal">STRUGGLE</span>
+    <h2 class="sec-title reveal">こんなお悩み、ありませんか？</h2>
+    <div class="pain-grid">
+      <div class="pain reveal"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div><h3>外注するほどの予算はない</h3><p>広告にそこまで費用はかけられない。まずは小さく、自分のペースで試したい。</p></div>
+      <div class="pain reveal"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><h3>素材を作る時間がない</h3><p>広告の文章・画像・動画。施術や接客の合間に作れる量ではない。</p></div>
+      <div class="pain reveal"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><h3>何が正解かわからない</h3><p>どんな広告が効くのか手探り。作っても、これでいいのか自信が持てない。</p></div>
+      <div class="pain reveal"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><h3>規約違反がこわい</h3><p>薬機法・景表法・Metaのルール。知らずに違反して、広告停止になることも。</p></div>
+    </div>
+    <p class="pain-conc reveal">→ 広告が続かないのは、センスの問題ではなく「作る手間とコスト」の問題です。マカセルは、そこだけを引き受けます。</p>
+  </div>
+</section>
+
+<!-- ================= STRUCTURE ================= -->
+<section class="sec sec-dark">
+  <div class="wrap center">
+    <span class="sec-label reveal">LOGIC</span>
+    <h2 class="sec-title reveal">広告の成果は「クリエイティブ × 数字の管理」で決まる</h2>
+    <p class="sec-lead reveal">長く広告運用の現場に居て、はっきり分かったことがあります。うまくいっている店舗は、センスで勝っているのではありません。「良い素材を作り、数字を見て直す」——この輪を淡々と回しているだけです。</p>
+    <div class="mult">
+      <div class="box b1 reveal">
+        <div class="bic"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <h3>クリエイティブ</h3>
+        <div class="tag">広告の“顔”</div>
+        <p>止まって見てもらえる画像・動画と、読んだ人が動きたくなる文章。成果の大部分はここで決まります。</p>
+      </div>
+      <div class="x reveal">×</div>
+      <div class="box b2 reveal">
+        <div class="bic"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+        <h3>数字の管理</h3>
+        <div class="tag">広告の“ハンドル”</div>
+        <p>いくら使って、何件の反応が来たか。数字を見て直す人だけが、広告費をムダにしません。</p>
+      </div>
+    </div>
+    <p class="mult-conc reveal">この2つを、専門知識なしで回せるようにしたのが「マカセル」です。</p>
+  </div>
+</section>
+
+<!-- ================= HOW ================= -->
+<section class="sec">
+  <div class="wrap">
+    <span class="sec-label reveal">HOW IT WORKS</span>
+    <h2 class="sec-title reveal">やることは、たった1つ。「承認するだけ」</h2>
+    <p class="sec-lead reveal">お店の情報を一度登録すれば、AIが広告素材ひとそろいを提案します。あなたは内容を見てOKを出すだけ。承認していない案が勝手に使われることはありません。</p>
+    <div class="steps">
+      <div class="step reveal"><span class="no">1</span><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><h3>お店の情報を入れる</h3><p>業種・地域・お客様の悩み・お店の強みを、画面の質問に答える形で登録します。</p><span class="time">目安 5〜10分（最初の1回だけ）</span></div>
+      <div class="step reveal"><span class="no">2</span><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><h3>AIが広告を作る</h3><p>訴求の違う複数案を、見出し＋本文＋画像のセットで提案。動画やLPもその場で作れます。</p><span class="time">目安 最短3分</span></div>
+      <div class="step reveal"><span class="no">3</span><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><h3>確認して、承認</h3><p>気に入った案を承認して素材をダウンロード。ガイドに沿って広告に入稿すれば配信スタートです。</p><span class="time">目安 5分</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="sec" id="features" style="background:var(--gray-100)">
+  <div class="wrap">
+    <span class="sec-label reveal">FEATURES</span>
+    <h2 class="sec-title reveal">広告に必要なもの、ぜんぶこの中に。</h2>
+    <div class="feat-grid">
+      <div class="feat reveal"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div><div><h3>AI広告文</h3><p>反応の取れる広告の型で、訴求の違う複数案を執筆。見出し・本文に加えて動画用の台本まで1回で揃います。</p></div></div>
+      <div class="feat reveal"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div><div><h3>AI広告画像</h3><p>広告文の内容に合わせた画像をその場で生成。気に入らなければワンタップで作り直し。無制限で使えます。</p></div></div>
+      <div class="feat reveal"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg></div><div><h3>AI動画<small>3つの作り方</small></h3><p>実写風のシネマ動画・AIアバターの語りかけ動画・無料のテロップ動画。撮影ゼロで広告動画が完成します。</p></div></div>
+      <div class="feat reveal"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div><div><h3>LP作成</h3><p>広告の受け皿になるLPを、集客の定番構成でAIが作成。HTMLで書き出してWordPress等に貼るだけで公開できます。</p></div></div>
+      <div class="feat reveal"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><h3>規約チェック</h3><p>薬機法・景表法・Metaポリシーの観点で文章をチェックし、言い換え案まで提示。広告停止のリスクを減らします。</p></div></div>
+      <div class="feat reveal"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div><h3>分析・改善提案</h3><p>広告の数字をAIがやさしい言葉で診断し、次の一手を提案。Meta連携で実績の自動取得もできます。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SCREENS ================= -->
+<section class="sec">
+  <div class="wrap">
+    <span class="sec-label reveal">SCREENS</span>
+    <h2 class="sec-title reveal">実際の画面は、こんな感じです。</h2>
+    <p class="sec-lead reveal">専門用語のない、やることが上から順に並ぶだけの画面です。パソコンが得意でなくても迷いません。</p>
+    <figure class="shot shot--main reveal">
+      <div class="shot-bar"><i></i><i></i><i></i></div>
+      <img src="img/screen-dashboard.jpg" alt="マカセルのダッシュボード画面" loading="lazy">
+      <figcaption>ダッシュボード：いま何をすればいいかが、いちばん上に大きく出ます。</figcaption>
+    </figure>
+    <div class="shot-grid">
+      <figure class="shot reveal">
+        <div class="shot-bar"><i></i><i></i><i></i></div>
+        <img src="img/screen-generate.jpg" alt="AIが生成した広告案（画像と文章）の画面" loading="lazy">
+        <figcaption>広告を作る：画像も文章も、この形でAIが提案。気に入らなければ作り直しできます。</figcaption>
+      </figure>
+      <div class="shot-col">
+        <figure class="shot reveal">
+          <div class="shot-bar"><i></i><i></i><i></i></div>
+          <img src="img/screen-lp.jpg" alt="LP作成画面" loading="lazy">
+          <figcaption>LP作成：お店とオファーを入れるだけで、集客LPの文章とデザインができます。</figcaption>
+        </figure>
+        <figure class="shot reveal">
+          <div class="shot-bar"><i></i><i></i><i></i></div>
+          <img src="img/screen-tools.jpg" alt="便利ツール画面" loading="lazy">
+          <figcaption>便利ツール：キャッチコピー10案・規約チェック・広告費シミュレーターなど。</figcaption>
+        </figure>
+      </div>
+    </div>
+    <p class="tbl-note reveal">※ 画面は2026年8月時点のものです。機能追加により、実際の画面と一部異なる場合があります。</p>
+  </div>
+</section>
+
+<!-- ================= VIDEO ================= -->
+<section class="sec" style="background:var(--gray-100)">
+  <div class="wrap">
+    <span class="sec-label reveal">AI VIDEO</span>
+    <h2 class="sec-title reveal">撮影ゼロで、3タイプの広告動画。</h2>
+    <p class="sec-lead reveal">「動画は無理」をまるごと解消します。用途に合わせて選べる3タイプ。すべてスマホ縦型で、インスタ広告にそのまま使えます。</p>
+    <div class="vid-grid">
+      <div class="vid v1 reveal"><span class="badge">映画のような質感</span><span class="em"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg></span><div><h3>AIシネマ動画</h3><p>承認した画像を、音声付きのなめらかな実写風ムービーに（約10〜15秒）。</p></div></div>
+      <div class="vid v2 reveal"><span class="badge">院の説明に最適</span><span class="em"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg></span><div><h3>AIアバターが語りかけ</h3><p>生成した台本を、日本語のAIアバターがフルHDで語りかける動画に。</p></div></div>
+      <div class="vid v3 reveal"><span class="badge">無料・無制限</span><span class="em"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg></span><div><h3>テロップ広告動画</h3><p>画像に見出し・本文を字幕で重ねたmp4を無料で作成。そのまま入稿OK。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMPARE ================= -->
+<section class="sec">
+  <div class="wrap">
+    <span class="sec-label reveal">COMPARE</span>
+    <h2 class="sec-title reveal">ぜんぶ自分でやるのと、何が変わる？</h2>
+    <div class="tbl-wrap reveal">
+      <table>
+        <thead><tr><th>比較項目</th><th>ぜんぶ自分でやる</th><th class="hl">マカセル</th></tr></thead>
+        <tbody>
+          <tr><td>始めるまでの学習</td><td>数十時間の独学</td><td class="hl">◎ ほぼ不要・即日</td></tr>
+          <tr><td>毎月のコスト</td><td>0円（自分の時間）</td><td class="hl">◎ 11,000円〜/月 定額</td></tr>
+          <tr><td>素材づくりの手間</td><td>高（全部自分）</td><td class="hl">◎ AIが数分で生成</td></tr>
+          <tr><td>規約チェック</td><td>自分で調べる</td><td class="hl">◎ AIがチェック＋言い換え案</td></tr>
+          <tr><td>数字の振り返り</td><td>自分次第</td><td class="hl">◎ AIがやさしく診断</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="tbl-note reveal">※ Metaに支払う広告費（媒体費）は、どちらの場合も別途必要です。</p>
+    <div class="handoff reveal">
+      <div class="handoff-ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+      <div>
+        <h3>「作るのも運用も、まるごとお任せしたい」という方へ</h3>
+        <p>株式会社しっとるでは、経験のある担当者がお店に代わって広告を運用する<strong>広告運用の代行</strong>も行っています。<strong>自分の手で作って育てたいならマカセル、本業に集中してお任せしたいなら運用代行</strong>——どちらが合うかは、下の無料相談で遠慮なくご相談ください。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROOF ================= -->
+<section class="sec sec-dark">
+  <div class="wrap">
+    <span class="sec-label reveal" style="color:#5BC6CB">FIELD-PROVEN</span>
+    <h2 class="sec-title reveal">広告運用の現場で生まれ、現場で使われています。</h2>
+    <p class="sec-lead reveal">マカセルは、Meta広告の運用を本業とする株式会社しっとるが、自社で担当するクライアント店舗の広告制作のために開発し、日々使っているアプリです。</p>
+    <div class="proof-grid">
+      <div class="proof reveal"><div class="big">47<small>店舗</small></div><h3>社内の広告制作で実運用中</h3><p>整骨院・整体・鍼灸・サロン・ジムなど8業種、47店舗の広告制作に実戦投入しています（2026年8月時点）。</p></div>
+      <div class="proof reveal"><div class="big">3<small>分</small></div><h3>広告ひとそろいが最短3分</h3><p>広告の文章（複数案）＋画像が揃うまでの実測時間。AI動画は2〜4分、LPは約10分で形になります。</p></div>
+      <div class="proof reveal"><div class="big" style="color:#5BC6CB"><svg class="i" style="width:46px;height:46px" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div><h3>“作る人”が作ったアプリ</h3><p>広告運用の実務で「毎日実際に作るもの」だけを機能にしています。現場で使われない飾りの機能はありません。</p></div>
+    </div>
+    <p class="proof-note reveal">※ 自社（株式会社しっとる）の社内運用実績です。数値は2026年8月時点のもので、成果をお約束するものではありません。</p>
+  </div>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section class="sec" id="pricing">
+  <div class="wrap">
+    <span class="sec-label reveal">PRICING</span>
+    <h2 class="sec-title reveal">料金プラン（税込・月額）</h2>
+    <p class="sec-lead reveal">料金は月額の定額制。どのプランでも、広告文・画像の作成は無制限です。</p>
+    <div class="price-grid">
+      <div class="plan reveal">
+        <h3>ライト</h3><div class="for">まず試したい1店舗に</div>
+        <div class="price">¥11,000<small> /月</small></div>
+        <ul><li>店舗の登録 1件</li><li>AI動画 月2本</li><li>広告文・画像は無制限</li><li>LP作成・分析・便利ツール</li></ul>
+      </div>
+      <div class="plan best reveal">
+        <span class="pbadge">人気No.1</span>
+        <h3>プロ</h3><div class="for">本気で集客したい店舗に</div>
+        <div class="price">¥22,000<small> /月</small></div>
+        <ul><li>店舗の登録 3件</li><li>AI動画 月5本</li><li>広告文・画像は無制限</li><li>LP作成・分析・便利ツール</li></ul>
+      </div>
+      <div class="plan reveal">
+        <h3>ビジネス</h3><div class="for">複数店舗・多ブランドに</div>
+        <div class="price">¥38,500<small> /月</small></div>
+        <ul><li>店舗の登録 5件</li><li>AI動画 月10本</li><li>広告文・画像は無制限</li><li>LP作成・分析・便利ツール</li></ul>
+      </div>
+    </div>
+    <div class="price-notes">
+      <div class="pnote reveal"><span class="em"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></span><div><b>無料お試しコードあり</b><span>配布コードの入力で無料で始められます</span></div></div>
+      <div class="pnote reveal"><span class="em"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg></span><div><b>契約期間の縛りなし</b><span>月額制で、いつでも終了していただけます</span></div></div>
+      <div class="pnote reveal"><span class="em"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.83z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></span><div><b>初期費用・設定費用 0円</b><span>お支払いは月額のみです</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="sec" style="background:var(--gray-100)">
+  <div class="wrap">
+    <span class="sec-label reveal">FAQ</span>
+    <h2 class="sec-title reveal">よくあるご質問</h2>
+    <div class="faq">
+      <details class="qa reveal"><summary><span class="q">Q.</span>パソコンが苦手でも使えますか？<span class="tgl">＋</span></summary><div class="a">はい。画面の案内どおりに進めるだけで、専門用語は使いません。迷ったらアプリ内のAIチャットに日本語で相談できます。</div></details>
+      <details class="qa reveal"><summary><span class="q">Q.</span>広告は自動で配信されますか？<span class="tgl">＋</span></summary><div class="a">現在は素材づくりまでをアプリが担当し、配信の開始はガイドに沿ってご自身で行っていただきます（自動入稿は準備中です）。入稿手順は画面内のガイドでご案内します。</div></details>
+      <details class="qa reveal"><summary><span class="q">Q.</span>広告費は別に必要ですか？<span class="tgl">＋</span></summary><div class="a">はい。Metaに支払う広告費（媒体費）は別途必要です。金額はお店側で自由に決められます。まずは無理のない少額で試し、反応の良い広告が見つかってから増やしていく進め方をおすすめしています。</div></details>
+      <details class="qa reveal"><summary><span class="q">Q.</span>ChatGPTを使うのと何が違いますか？<span class="tgl">＋</span></summary><div class="a">違いは2つあります。店舗集客に特化した広告の型が入っていること、そして画像・動画・LP・分析まで1つのアプリで完結することです。</div></details>
+      <details class="qa reveal"><summary><span class="q">Q.</span>画像が気に入らなかったら？<span class="tgl">＋</span></summary><div class="a">「作り直す」ボタンで何度でも作り直せます。広告文・画像の作成はどのプランでも無制限です。</div></details>
+      <details class="qa reveal"><summary><span class="q">Q.</span>規約違反にならないか心配です。<span class="tgl">＋</span></summary><div class="a">規制に配慮した文章生成に加え、規約チェック機能で言い換え案まで提示します。最終的なご確認はご自身でお願いしています。</div></details>
+      <details class="qa reveal"><summary><span class="q">Q.</span>途中でやめられますか？<span class="tgl">＋</span></summary><div class="a">はい。契約期間の縛りはなく月額制です。作った素材は、やめる前にダウンロードしてお使いいただけます。</div></details>
+      <details class="qa reveal"><summary><span class="q">Q.</span>どんな業種で使えますか？<span class="tgl">＋</span></summary><div class="a">整骨院・整体・鍼灸・エステ・ジムなど、店舗ビジネス全般でお使いいただけます。実際に8業種・47店舗の広告制作で使われています。</div></details>
+      <details class="qa reveal"><summary><span class="q">Q.</span>成果は保証されますか？<span class="tgl">＋</span></summary><div class="a">正直に申し上げると、保証はできません。ただ「良い素材を、数多く試す」という成果への王道を、最短で回せるようになります。</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="sec-contact" id="contact">
+  <div class="wrap">
+    <h2 class="reveal">まずは無料で、<br>“広告がその場で完成する体験”をどうぞ。</h2>
+    <p class="lead reveal">「うちの業種でも大丈夫？」「運用代行とどっちが合う？」——そんな素朴な疑問だけでも大歓迎です。下のフォームからご連絡いただければ、無料お試しコードのご案内と、貴店に合った進め方のご提案をいたします。</p>
+    <div class="form-steps reveal">
+      <span class="form-step"><span class="n">1</span>フォームに入力<br>（約1分）</span>
+      <span class="form-step sep">→</span>
+      <span class="form-step"><span class="n">2</span>お試しコードをお届け</span>
+      <span class="form-step sep">→</span>
+      <span class="form-step"><span class="n">3</span>その日から広告づくり</span>
+    </div>
+    <div class="reveal">
+      <a class="btn btn--lg js-form-link" href="#" target="_blank" rel="noopener">無料お試しを申し込む（Googleフォーム）<span class="arrow">→</span></a>
+      <p class="btn-note btn-note--onDark">入力は約1分。しつこい営業は一切ありません</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="brand"><span class="mark"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>マカセル<span style="font-weight:500;font-size:12px;color:rgba(255,255,255,.55);margin-left:4px">produced by 株式会社しっとる</span></div>
+    <p class="addr">〒700-0901 岡山県岡山市北区本町6-36 第一セントラルビル4階</p>
+    <div class="links">
+      <a href="https://ig-ads.s-toru.com/legal.html" target="_blank" rel="noopener">特定商取引法に基づく表記</a>
+      <a href="https://ig-ads.s-toru.com/privacy.html" target="_blank" rel="noopener">プライバシーポリシー</a>
+    </div>
+    <p class="copy">© 2026 株式会社しっとる. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<div class="sticky-cta">
+  <a class="btn js-form-link" href="#contact">無料お試しを申し込む</a>
+</div>
+
+<script>
+// 無料相談フォーム（しっとる共通のGoogleフォーム）
+const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScQxGrWcsL7z5hQ7KLK3hqWy9I5c64KNhe9HicYCiDJB3c03Q/viewform";
+document.querySelectorAll(".js-form-link").forEach(a => {
+  // #contact への誘導ボタンはそのまま、フォーム直リンク（href="#"）だけ差し替える
+  if (a.getAttribute("href") === "#") { a.href = GOOGLE_FORM_URL; }
+});
+
+// スクロール連動の表示アニメーション
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("on"); io.unobserve(e.target); } });
+}, { threshold: 0.12 });
+document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+
+// FAQ: 開いたら他を閉じる（1つずつ読みやすく）
+document.querySelectorAll(".qa").forEach(d => {
+  d.addEventListener("toggle", () => {
+    if (d.open) document.querySelectorAll(".qa[open]").forEach(o => { if (o !== d) o.open = false; });
+  });
+});
+</script>
+</body>
+</html>
